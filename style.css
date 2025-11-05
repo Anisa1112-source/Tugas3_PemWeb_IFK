@@ -1,0 +1,100 @@
+/* Reset sederhana */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #f2f4f7;
+    padding: 30px;
+}
+
+/* Title */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button dan Link */
+a, button {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Khusus link */
+a {
+    background: #007bff;
+    color: white;
+}
+
+a:hover {
+    background: #0056b3;
+}
+
+/* Tombol Delete */
+a.delete {
+    background: #d9534f;
+}
+
+a.delete:hover {
+    background: #b7322d;
+}
+
+/* Form */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 450px;
+    margin-top: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e7b32;
+}
